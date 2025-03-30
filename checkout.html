@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HP Laptop Shop - Checkout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>HP Laptop Sales Website</h1>
+  </header>
+  <div class="container">
+    <section id="checkout-page">
+      <h2>Checkout</h2>
+      <div id="cart-summary"></div>
+      <form id="checkout-form">
+        <div>
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="address">Shipping Address:</label>
+          <textarea id="address" name="address" rows="3" required></textarea>
+        </div>
+        <button type="submit">Place Order</button>
+      </form>
+      <div class="nav-link" id="back-to-product">Back to Product</div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
